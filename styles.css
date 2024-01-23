@@ -1,0 +1,24 @@
+:root {
+    --color-scheme-1: #3498db; /* Blue */
+    --color-scheme-2: #e74c3c; /* Red */
+    --color-scheme-3: #2ecc71; /* Green */
+}
+
+body {
+    transition: background-color 0.5s ease;
+}
+
+.color-rotator {
+    margin: 20px;
+    text-align: center;
+}
+
+.slider {
+    width: 300px;
+}
+
+.content {
+    text-align: center;
+    padding: 50px;
+    color: #fff; /* Set text color to contrast with background */
+}
